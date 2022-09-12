@@ -1,0 +1,39 @@
+.form {
+	margin: 1rem 0;
+	height: 10rem;
+	overflow: scroll;
+}
+
+.form button {
+	border-radius: 25px;
+	margin-right: 10px;
+	font-size: 1rem;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #5a1a01;
+	color: #5a1a01;
+	padding: 3px 6px;
+}
+
+.control {
+	margin-bottom: 0.5rem;
+}
+
+.control label {
+	font-weight: bold;
+	margin-bottom: 0.25rem;
+	display: block;
+}
+
+.control input {
+	font: inherit;
+}
+
+.confirm {
+	color: white;
+	background-color: #5a1a01;
+}
+
+.failure {
+	color: red;
+}
